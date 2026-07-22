@@ -1,0 +1,31 @@
+{
+  "name": "genpark-multi-channel-conversational-sales-agent-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Multi-channel conversational sales, instant checkout link, and messaging agent.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "conversational-sales",
+    "messaging-agent",
+    "whatsapp-sales",
+    "instant-checkout"
+  ],
+  "inputs": {
+    "user_message": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "reply_text": {
+      "type": "string"
+    },
+    "one_click_checkout_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
